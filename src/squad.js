@@ -65,9 +65,11 @@
         // Second command line is an exploration string
         rover.explore(commandQueue.shift());
 
+        // Build the squad status report
         squadStatus += rover.status() + '\n';
       }
 
+      // Return the squad status and log it to the console
       console.log(squadStatus);
       return squadStatus;
     }
