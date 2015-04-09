@@ -3,12 +3,7 @@ var Plateau = require('./plateau'),
   Squad = require('./squad');
 
 // The nasa command to test with.
-var nasaCommands =
-  '5 5\n' +
-  '1 2 N\n' +
-  'LMLMLMLMM\n' +
-  '3 3 E\n' +
-  'MMRMMRMRRM\n';
+var nasaCommands = '5 5\n1 2 N\nLMLMLMLMM\n3 3 E\nMMRMMRMRRM';
 
 // Create two rovers and a squad.
 var redRover = new Rover(),

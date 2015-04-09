@@ -1,5 +1,3 @@
-var Plateau = require('./Plateau');
-
 (function () {
 
   /**

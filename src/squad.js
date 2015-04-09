@@ -7,7 +7,7 @@
    */
   var Squad = function (rovers) {
     this._rovers = rovers || [];
-    this._plateau;
+    this._plateau = {};
   };
 
   Squad.prototype = {
@@ -67,7 +67,7 @@
 
         squadStatus += rover.status() + '\n';
       }
-      
+
       console.log(squadStatus);
       return squadStatus;
     }

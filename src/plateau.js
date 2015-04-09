@@ -6,7 +6,7 @@
    * @param {number} yDimension The height of the plateau.
    */
   var Plateau = function (xDimension, yDimension) {
-    
+
     var negativeDimensions = xDimension < 0 || yDimension < 0;
     if (negativeDimensions) {
       throw new Error ('Dimensions cannot be negative');
@@ -17,7 +17,6 @@
   };
 
   Plateau.prototype = {
-
 
     /* Returns the x dimension of the plateau.
      * @return {number} _xDimension

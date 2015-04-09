@@ -6,7 +6,7 @@
 
 2. Run `$ npm install` to install the node dependencies.
 
-3. Run `$ node js/runner.js` to quickly run through the given test data.
+3. Run `$ node src/runner.js` to quickly run through the given test data.
 
 ## Tests
 

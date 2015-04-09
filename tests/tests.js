@@ -1,7 +1,7 @@
-var Plateau = require('./plateau'),
-  Rover = require('./rover'),
-  Squad = require('./squad'),
-  Position = require('./position');
+var Plateau = require('../src/plateau'),
+  Rover = require('../src/rover'),
+  Squad = require('../src/squad'),
+  Position = require('../src/position');
 
 var chai = require('chai'),
   assert = chai.assert,
