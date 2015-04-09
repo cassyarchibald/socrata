@@ -16,19 +16,19 @@
 
 #### squad.js
 
-A squad is a set of rovers.  NASA sends a command string to a squad, which then relays commands one at a time to each of its rovers.  Thus, squads act as central command units (parsing commands, landing on planets, keeping track of rovers, etc.).
+A `Squad` is a set of rovers.  NASA sends a command string to a squad, which then relays commands one at a time to each of its rovers.  Thus, squads act as central command units (parsing commands, landing on planets, keeping track of rovers, etc.).
 
 #### rover.js
 
-Each rover represents a single Mars Rover.  Rovers have a **position** (a tuple of x, y coordinates) and an **orientation** (North/South/East/West).  Rovers can advance, turn, explore, report their status, and have basic getters/setters.
+Each `Rover` represents a single Mars Rover.  Rovers have a **position** (a tuple of x, y coordinates) and an **orientation** (North/South/East/West).  Rovers can advance, turn, explore, report their status, and have basic getters/setters.
 
 #### plateau.js
 
-A plateau represents the map that the squad has landed on.  Plateaus have only two attributes, an **xDimension** and a **yDimension** that specify their size.
+A `Plateau` represents the map that the squad has landed on.  Plateaus have only two attributes, an **xDimension** and a **yDimension** that specify their size.
 
 #### position.js
 
-A position functions almost identically to a (x-coor, y-coor) tuple and provides basic getters/setters.
+A `Position` functions almost identically to a (x-coor, y-coor) tuple and provides basic getters/setters.
 
 #### orientation.js
 

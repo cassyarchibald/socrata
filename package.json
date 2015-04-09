@@ -2,7 +2,7 @@
   "name": "socrata_rover",
   "author": "Zack Elliott",
   "scripts": {
-    "test": "mocha js/tests.js"
+    "test": "mocha tests/tests.js"
   },
   "dependencies": {
     "chai": "^2.2.0",
