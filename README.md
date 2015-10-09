@@ -14,7 +14,7 @@ The position is made up of two integers and a letter separated by spaces, corres
 
 The output for each rover should be its final coordinates and heading. 
 
-Input: 
+**Input:**
 ```
 5 5 
 1 2 N 
@@ -23,7 +23,7 @@ LMLMLMLMM
 MMRMMRMRRM 
 ```
 
-Output: 
+**Output**
 ```
 1 3 N 
 5 1 E 
