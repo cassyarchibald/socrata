@@ -8,8 +8,9 @@
   var Plateau = function (xDimension, yDimension) {
 
     var negativeDimensions = xDimension < 0 || yDimension < 0;
+
     if (negativeDimensions) {
-      throw new Error ('Dimensions cannot be negative');
+      throw new Error('Dimensions cannot be negative');
     }
 
     this._xDimension = xDimension || 0;
@@ -39,7 +40,7 @@
     setDimensions: function (xDimension, yDimension) {
 
       if (xDimension < 0 || yDimension < 0) {
-        throw new Error ('Dimensions cannot be negative');
+        throw new Error('Dimensions cannot be negative');
       }
 
       this._xDimension = xDimension;

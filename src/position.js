@@ -18,7 +18,7 @@
      * @return {number} _x
      */
     getX: function () {
-      return this._x
+      return this._x;
     },
 
     /**

@@ -68,6 +68,7 @@ var Position = require('./position'),
     explore: function (commands) {
       for (var i = 0; i < commands.length; i++) {
         var cmd = commands.charAt(i);
+
         switch (cmd) {
           case 'M':
             this.advance();
@@ -89,8 +90,8 @@ var Position = require('./position'),
      */
     status: function () {
       return this._position.getX() + ' ' +
-             this._position.getY() + ' ' +
-             this._orientation.get;
+        this._position.getY() + ' ' +
+        this._orientation.get;
     }
   };
 

@@ -1,5 +1,9 @@
 # Mars Rover Challenge
 
+## Challenge
+
+
+
 ## Setup
 
 1. Open the .zip file and `$ cd rover`.
@@ -34,6 +38,3 @@ A `Position` functions almost identically to a (x-coor, y-coor) tuple and provid
 
 I wanted to try to avoid using massive switch/case and if/else statements to determine how a rover should move given a certain position and orientation.  Thus, I defined an object called **Orientation** that can be used to easily determine how a rover should move and turn.
 
-## Note
-
-JavaScript isn't the *most* object oriented language... but I learned a lot in this project about inheritance and the prototype chain.  The variables in my code prefaced with `_` are used to mark them for the reader as being "private variables".  These variables are not in fact private (privatizing variables in Javascript seems to still be a contentious issue), but I thought it was good practice to name them as such.  An interesting alternative is to use [WeakMaps](http://philipwalton.com/articles/implementing-private-and-protected-members-in-javascript/).

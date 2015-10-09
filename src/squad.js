@@ -42,11 +42,12 @@
      * @param {string} commands The string of commands NASA sends to this squad.
      */
     executesCommands: function (commands) {
-      var squadStatus = '',
-        commandQueue = commands.split('\n');
+      var squadStatus = '';
+      var commandQueue = commands.split('\n');
 
       // Extract plateau data
       var plateauData = commandQueue.shift().split(' ');
+
       this._plateau.setDimensions(
         parseInt(plateauData[0]),
         parseInt(plateauData[1]));
@@ -57,6 +58,7 @@
 
         // First command line sets up each rover
         var setupData = commandQueue.shift().split(' ');
+
         rover.setup(
           parseInt(setupData[0]),
           parseInt(setupData[1]),
@@ -70,7 +72,6 @@
       }
 
       // Return the squad status and log it to the console
-      console.log(squadStatus);
       return squadStatus;
     }
   };

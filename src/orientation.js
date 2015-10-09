@@ -44,7 +44,7 @@
         position.setX(position.getX() - 1);
       }
     }
-  }
+  };
 
   Object.freeze(Orientation);
 
